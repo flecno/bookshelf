@@ -192,8 +192,8 @@ module.exports = function(bookshelf) {
       {id: 4, name: 'Customer4'}]),
 
     knex('Settings').insert([
-      {id: 1, Customer_id: 1, data: 'Europe/Paris', isActive: false},
-      {id: 2, Customer_id: 4, data: 'UTC', isActive: true}
+      {id: 1, Customer_id: 1, data: 'Europe/Paris'},
+      {id: 2, Customer_id: 4, data: 'UTC', isActive: false}
     ]),
 
     knex('hostnames').insert([
